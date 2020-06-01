@@ -1,0 +1,38 @@
+body {
+  background-color: coral;
+  width: 550px;
+  height: 280px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #FFA115;
+  border-radius: 20px;
+  border-radius: 20px;
+  align-content: center;
+}
+
+button{
+color: rgb(255, 16, 16);
+font-size: 15px;
+line-height: 15px;
+padding: 5px;
+border-radius: 10px;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+border: 2px solid rgb(28, 110, 164);
+display: inline-block;
+}
+
+button:hover {
+  background: #FFA115; }
+
+header{
+   background: black;
+   width: 250px;
+   height: 150px;
+   border-width: 10px;
+   border-style: ;
+   border-color: #FFA115;
+   border-radius: 20px;
+   border-radius: 20px;
+ }

@@ -1,0 +1,61 @@
+body{
+  background-color: coral;
+  display: inline-flex;
+  width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.header {
+  padding: 100px 1100px;
+  align-content: center;
+  background: #FFA115;
+  top: 0px;
+  width: 100%;
+}
+
+.card {
+  background-color: coral;
+  box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 900px;
+  margin: auto;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+
+.card button{
+color: rgb(255, 16, 16);
+font-size: 15px;
+line-height: 15px;
+padding: 5px;
+border-radius: 10px;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+border: 2px solid rgb(28, 110, 164);
+display: inline-block;
+background-color: #FFA115;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    display: block;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    display: block;
+    width: 100%;
+}
